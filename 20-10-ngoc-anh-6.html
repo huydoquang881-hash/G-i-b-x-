@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ff7aa8">
+  <title>Gửi Ngọc Anh ❤️ | 20/10</title>
+  <style>
+    :root { --pink: #ff4f87; --deep: #b51655; --cream: #fff7fb; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100svh; overflow-x: hidden;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      color: #8f1748;
+      background: radial-gradient(circle at top, #fff0f6 0%, #ffd3e2 42%, #ff9fbd 100%);
+      display: grid; place-items: center; padding: 24px 14px;
+    }
+    .glow {
+      position: fixed; width: 240px; height: 240px; border-radius: 50%;
+      background: #fff; filter: blur(75px); opacity: .5; pointer-events: none;
+      animation: glow 5s ease-in-out infinite alternate;
+    }
+    .glow.one { top: -70px; left: -70px; }
+    .glow.two { bottom: -80px; right: -70px; animation-delay: -2s; }
+    @keyframes glow { to { transform: scale(1.35); opacity: .75; } }
+    .card {
+      position: relative; z-index: 2; width: min(100%, 440px);
+      padding: 30px 22px 26px; text-align: center; border-radius: 30px;
+      background: rgba(255,255,255,.83); border: 1px solid rgba(255,255,255,.9);
+      box-shadow: 0 20px 60px rgba(151, 20, 76, .18);
+      backdrop-filter: blur(10px); animation: arrive .9s ease both;
+    }
+    @keyframes arrive { from { opacity: 0; transform: translateY(22px) scale(.97); } to { opacity: 1; transform: none; } }
+    .eyebrow { letter-spacing: 3px; font-size: 11px; font-weight: 800; color: #d94a7b; }
+    .heart-big { font-size: 66px; line-height: 1.2; margin: 12px 0; animation: heartbeat 1.25s infinite; filter: drop-shadow(0 8px 12px #ff8fb4); }
+    @keyframes heartbeat { 0%,100% { transform: scale(1); } 14% { transform: scale(1.13); } 28% { transform: scale(1); } 42% { transform: scale(1.09); } }
+    h1 { margin: 8px 0; font-size: clamp(27px, 7vw, 36px); line-height: 1.18; color: var(--deep); }
+    .name { color: #ff3f7c; text-shadow: 0 2px 14px #ffb3cb; }
+    .subtitle { margin: 12px 0 20px; font-size: 15px; color: #a74469; }
+    .divider { color: #ff6e9d; letter-spacing: 7px; margin: 14px 0; }
+    .message {
+      text-align: left; background: #fff5f9; border: 1px solid #ffe0eb;
+      border-radius: 19px; padding: 17px 16px; line-height: 1.7; font-size: 15px;
+    }
+    .message p { margin: 0 0 10px; }
+    .message p:last-child { margin-bottom: 0; }
+    button {
+      margin-top: 19px; border: 0; border-radius: 999px; padding: 14px 22px;
+      width: 100%; color: white; font-size: 15px; font-weight: 750;
+      background: linear-gradient(110deg, #ff6797, #e52d70);
+      box-shadow: 0 8px 20px #ed4c8545; cursor: pointer;
+      transition: transform .2s, box-shadow .2s;
+    }
+    button:active { transform: scale(.97); }
+    #confession {
+      display: none; margin-top: 16px; padding: 17px 15px; border-radius: 18px;
+      color: #a51d54; background: linear-gradient(135deg, #fff0f6, #ffe0eb);
+      line-height: 1.7; animation: arrive .55s ease both;
+    }
+    #confession.show { display: block; }
+    .signature { margin-top: 19px; font-weight: 800; color: #c12660; }
+    .small { margin-top: 12px; color: #c56a8a; font-size: 11px; }
+    .float-heart {
+      position: fixed; bottom: -40px; z-index: 1; pointer-events: none;
+      animation: float-up linear forwards; opacity: .82;
+      filter: drop-shadow(0 3px 5px #ff6d9c55);
+    }
+    @keyframes float-up {
+      0% { transform: translateY(0) translateX(0) rotate(0deg) scale(.7); opacity: 0; }
+      12% { opacity: .85; }
+      100% { transform: translateY(-115vh) translateX(var(--drift)) rotate(35deg) scale(1.25); opacity: 0; }
+    }
+    .sparkle { position: fixed; pointer-events: none; z-index: 3; animation: sparkle 1s ease-out forwards; }
+    @keyframes sparkle { from { transform: translateY(0) scale(.4); opacity: 1; } to { transform: translateY(-55px) scale(1.3); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="glow one"></div><div class="glow two"></div>
+
+  <main class="card">
+    <div class="eyebrow">20 THÁNG 10 · NGÀY PHỤ NỮ VIỆT NAM</div>
+    <div class="heart-big" aria-hidden="true">💗</div>
+    <h1>Chúc mừng<br><span class="name">Ngọc Anh</span> 🌷</h1>
+    <p class="subtitle">Gửi cô gái đặc biệt trong lòng Thành Đạt</p>
+    <div class="divider">♡ ✦ ♡</div>
+
+    <section class="message">
+      <p>Ngọc Anh à, 💌</p>
+      <p>Nhân ngày 20/10, anh chúc em luôn vui vẻ, bình an và gặp thật nhiều điều tốt đẹp. Mong em lúc nào cũng giữ được nụ cười trên môi, dù có những ngày mệt mỏi hay không vui. 🌷</p>
+      <p>Anh không giỏi nói những lời hoa mỹ, chỉ mong em biết rằng em rất đặc biệt với anh. Anh vui khi được nói chuyện với em, quan tâm em và nhìn thấy em hạnh phúc. Nếu có lúc nào em buồn, anh mong mình có thể ở bên lắng nghe và cùng em vượt qua.</p>
+      <p>Chúc cô gái anh thương có một ngày 20/10 thật đáng nhớ. Mong những ngày sau này của em luôn có nhiều niềm vui, nhiều yêu thương và những điều xứng đáng nhất. ❤️</p>
+    </section>
+
+    <button id="loveButton" type="button">Mở lời nhắn bí mật 💌</button>
+    <section id="confession" aria-live="polite">
+      <div style="font-size:30px">💖</div>
+      <strong>Ngọc Anh, em biết không?</strong>
+      <p>Anh không hứa sẽ làm mọi thứ thật hoàn hảo, nhưng anh muốn chân thành quan tâm em, lắng nghe em và cùng em tạo nên những kỷ niệm đẹp. Với anh, chỉ cần thấy em vui cũng đủ làm một ngày trở nên đặc biệt hơn rồi.</p>
+      <p>Cảm ơn Ngọc Anh vì đã xuất hiện trong cuộc sống của anh. Anh mong mình sẽ còn nhiều cơ hội để hiểu em hơn và mang đến cho em thật nhiều niềm vui. Chúc em luôn hạnh phúc nhé! ❤️</p>
+      <div class="signature">— Thành Đạt 💗</div>
+    </section>
+    <div class="signature">Thương gửi từ Thành Đạt ❤️</div>
+    <div class="small">Một chiếc thiệp nhỏ, dành riêng cho em.</div>
+  </main>
+
+  <script>
+    const hearts = ["💗", "💕", "💖", "❤️", "💘", "🌸"];
+    function createHeart() {
+      const heart = document.createElement("span");
+      heart.className = "float-heart";
+      heart.textContent = hearts[Math.floor(Math.random() * hearts.length)];
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.fontSize = (16 + Math.random() * 20) + "px";
+      heart.style.setProperty("--drift", (Math.random() * 140 - 70) + "px");
+      heart.style.animationDuration = (6 + Math.random() * 5) + "s";
+      document.body.appendChild(heart);
+      setTimeout(() => heart.remove(), 12000);
+    }
+    for (let i = 0; i < 12; i++) setTimeout(createHeart, i * 250);
+    setInterval(createHeart, 520);
+
+    const button = document.getElementById("loveButton");
+    const confession = document.getElementById("confession");
+    button.addEventListener("click", () => {
+      const isOpen = confession.classList.toggle("show");
+      button.textContent = isOpen ? "Đóng lời nhắn 💗" : "Mở lời nhắn bí mật 💌";
+      if (isOpen) {
+        for (let i = 0; i < 18; i++) {
+          setTimeout(() => {
+            const s = document.createElement("span");
+            s.className = "sparkle";
+            s.textContent = ["💖", "✨", "💕", "🌷"][Math.floor(Math.random() * 4)];
+            s.style.left = (10 + Math.random() * 80) + "vw";
+            s.style.top = (30 + Math.random() * 50) + "vh";
+            s.style.fontSize = (18 + Math.random() * 18) + "px";
+            document.body.appendChild(s);
+            setTimeout(() => s.remove(), 1100);
+          }, i * 55);
+        }
+      }
+    });
+  </script>
+</body>
+</html>
